@@ -1,7 +1,6 @@
 ; fio-rand-RW.job for fiotest
 
 [global]
-name=fio-rand-RW
 filename=fio-rand-RW
 rw=randrw
 rwmixread=70
@@ -13,7 +12,6 @@ runtime=1800
 size=10G
 ioengine=libaio
 iodepth=64
-directory=/fio
 
 [job1]
 rw=randread
