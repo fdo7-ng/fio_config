@@ -14,7 +14,7 @@ runtime=1800
 size=200G
 ioengine=libaio
 iodepth=16
-
+directory=/fio
 
 [job1]
 rw=randread
