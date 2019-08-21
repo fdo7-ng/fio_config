@@ -1,31 +1,21 @@
+[global]
+name=custom-fio-rw
+filename=/fio/file
 rw=randrw
 
 numjobs=8
-
 ioengine=libaio
-
 direct=1
-
 refill_buffers
-
 norandommap
-
 randrepeat=0
-
 group_reporting
 
 [4k_RAND_READ_WRITE]
-
 filesize=100G
-
 blocksize=16k
-
 iodepth=64
-
-rwmixread=70
-
-filename=/fio/file
+rmixread=70
 
 runtime=1800
-
 time_based
